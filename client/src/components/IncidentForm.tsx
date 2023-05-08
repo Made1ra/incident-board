@@ -80,6 +80,7 @@ function IncidentForm() {
         if (photo !== null) {
             data.append('photo', photo);
         }
+      
         data.append('lat', lat.toString());
         data.append('lon', lon.toString());
         data.append('title', title);
